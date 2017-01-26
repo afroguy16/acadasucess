@@ -6,6 +6,7 @@ nav {
 	height: 50px;
 	background-color: #083B5D;
 	box-shadow: 1px 1px 10px #454545;
+	margin-bottom: 50px;
 }
 
 nav .row, footer .row {
@@ -83,6 +84,10 @@ footer .left-footer {
 
 footer .right-footer {
 	display: inline-block;
+}
+
+footer .right-footer img {
+	margin-bottom: 10px;
 }
 
 .page-title {

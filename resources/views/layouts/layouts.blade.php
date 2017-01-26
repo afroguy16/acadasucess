@@ -37,6 +37,7 @@
 				</div>
 			</nav>
 		</header>
+		<span class="clearfix"></span>
 	@yield("page")
 	</div>
 	<footer>
