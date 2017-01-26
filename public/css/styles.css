@@ -28,6 +28,16 @@ nav .row, footer .row {
 	text-decoration: none;
 }
 
+.navbar-brand {
+	padding-top: 5px;
+}
+
+.navbar-brand h1 {
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .nav-right {
 	display: inline-block;
 	color: #fff;
@@ -37,22 +47,39 @@ nav .row, footer .row {
 	border-radius: 10px;
 }
 
-.nav-right a {
+.nav>li>a {
 	color: #fff;
 	text-decoration: none;
+	margin-top: 10px;
+	/*margin-bottom: 5px;*/
+	padding: 5px 20px;
+	border-radius: 10px;
+}
+
+.nav>li>a:hover {
+	background-color: #405C70;
 }
 
 .nav-right p {
 	margin-bottom: 0;
 }
 
-.nav-right:hover {
+.navbar-right .login:hover, .navbar-right .login:focus, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
 	background-color: #405C70;
 }
 
-.nav-right img {
+.navbar-right .login img {
 	width:30px;
 	border-radius: 50%;
+}
+
+.navbar-right .login {
+	display: inline-block;
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 20px;
+	border-radius: 10px;
 }
 
 footer {

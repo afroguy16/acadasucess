@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/details', 'MemberController@index');
+
 Route::get('auth/{facebook}', 'Auth\SocialiteController@redirectToProvider');
 Route::get('auth/{facebook}/callback', 'Auth\SocialiteController@handleProviderCallback');
 
