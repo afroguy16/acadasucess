@@ -27,7 +27,34 @@
 			</div>
 		<div class="user-bottom">
 			<table>
-				
+				<tr>
+				<td>Sex:</td>
+				<td>Male</td>
+				</tr>
+				<tr>
+				<td>Birthday:</td>
+				<td>1st October, 1960</td>
+				</tr>
+				<tr>
+				<td>Email:</td>
+				<td>tega_joe@hotmail.com</td>
+				</tr>
+				<tr>
+				<td>Mobile:</td>
+				<td>08123456789</td>
+				</tr>
+				<tr>
+				<td>My Videos</td>
+				<td>3302</td>
+				</tr>
+				<tr>
+				<td>Likes</td>
+				<td>45,932,82</td>
+				</tr>
+				<tr>
+				<td>Shares</td>
+				<td>28,329,832</td>
+				</tr>
 			</table>
 		</div>
 		</div>
