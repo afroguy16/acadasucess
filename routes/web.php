@@ -23,3 +23,6 @@ Route::get('auth/{github}/callback', 'Auth\SocialiteController@handleProviderCal
 
 Route::get('auth/{twitter}', 'Auth\SocialiteController@redirectToProvider');
 Route::get('auth/{twitter}/callback', 'Auth\SocialiteController@handleProviderCallback');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
