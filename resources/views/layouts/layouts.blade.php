@@ -29,7 +29,7 @@
 					<div class="col-lg-3 col-lg-push-1">
 						<div class="nav-right">
 							<p>Hello <a href="#">Joe Bauer</a>
-								<span><img src="#" alt="Avatar"></span>
+								<span><img src="images/avatar.jpg" alt="Avatar"></span>
 								<span class="" role="dropdown"></span>
 							</p>
 						</div>
@@ -54,7 +54,7 @@
 			<div class="right-footer pull-right">
 				<img src="images/facebook.svg" alt="Facebook">
 				<img src="images/twitter.svg" alt="Twitter">
-				<img src="images/facebook.svg" alt="LinkedIn">
+				<img src="images/linkedin.svg" alt="LinkedIn">
 			</div>
 		</div>
 	</div>		

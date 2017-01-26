@@ -30,7 +30,9 @@ nav .row, footer .row {
 .nav-right {
 	display: inline-block;
 	color: #fff;
-	padding: 10px 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 20px;
 	border-radius: 10px;
 }
 
@@ -39,8 +41,17 @@ nav .row, footer .row {
 	text-decoration: none;
 }
 
+.nav-right p {
+	margin-bottom: 0;
+}
+
 .nav-right:hover {
 	background-color: #405C70;
+}
+
+.nav-right img {
+	width:30px;
+	border-radius: 50%;
 }
 
 footer {
