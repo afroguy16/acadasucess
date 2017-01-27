@@ -1,12 +1,5 @@
 <?php
 
-$url = parse_url(getenv("postgres://hikdjwfbgbsslj:0aca54d2bd6577d06d7a3a08375af1acde5d1b91d87baca68e9f527820c57048@ec2-54-163-234-20.compute-1.amazonaws.com:5432/de7a0fq8k8chti"));
-
-$host = $url["ec2-54-163-234-20.compute-1.amazonaws.com"];
-$username = $url["hikdjwfbgbsslj"];
-$password = $url["0aca54d2bd6577d06d7a3a08375af1acde5d1b91d87baca68e9f527820c57048"];
-$database = substr($url["de7a0fq8k8chti"], 1);
-
 return [
 
     /*
@@ -20,7 +13,7 @@ return [
     |
     */
 
-    'default' => 'pgsql',
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -37,8 +30,6 @@ return [
     | choice installed on your machine before you begin development.
     |
     */
-
-
 
     'connections' => [
 
@@ -64,11 +55,11 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => $host,
+            'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
-            'database' => $database,
-            'username' => $username,
-            'password' => $password,
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
