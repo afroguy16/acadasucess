@@ -17,6 +17,12 @@ Route::get('/', function () {
 
 Route::get('/details', 'MemberController@index');
 
+Route::get('/edit-details', 'MemberController@editmember');
+
+Route::get('/myvideos', 'MemberController@membervideos');
+
+Route::get('/uploadvideo', 'MemberController@uploadvideo');
+
 Route::get('auth/{facebook}', 'Auth\SocialiteController@redirectToProvider');
 Route::get('auth/{facebook}/callback', 'Auth\SocialiteController@handleProviderCallback');
 

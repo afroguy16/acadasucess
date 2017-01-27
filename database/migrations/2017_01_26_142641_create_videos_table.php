@@ -18,7 +18,8 @@ class CreateVideosTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('title', 125)->unique();
-            $table->longText('description')->nullable();
+            $table->longText('description');
+            $table->string('category', 125);
             $table->string('avatar')->nullable()->default("default.jpg");
             $table->timestamps();
         });

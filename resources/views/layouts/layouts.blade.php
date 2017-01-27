@@ -58,8 +58,8 @@
 
 	                                <ul class="dropdown-menu" role="menu">
 	                                	<li><a href="{{ url('/details') }}">My Profile</a></li>
-	                                	<li><a href="{{ url('/details') }}">Browse Video</a></li>
-	                                	<li><a href="{{ url('/details') }}">Upload Video</a></li>
+	                                	<li><a href="{{ url('/') }}">Browse Video</a></li>
+	                                	<li><a href="{{ url('/uploadvideo') }}">Upload Video</a></li>
 	                                    <li>
 	                                        <a href="{{ url('/logout') }}"
 	                                            onclick="event.preventDefault();

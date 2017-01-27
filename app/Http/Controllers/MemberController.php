@@ -6,14 +6,45 @@ use Illuminate\Http\Request;
 
 class MemberController extends Controller
 {
+
     /**
-     * Display a listing of the resource.
+     * Display user's page.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
         return view("memberdetails");
+    }
+
+    /**
+     * Display user's edit page
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function editmember()
+    {
+        return view("editmemberdetails");
+    }
+
+    /**
+     * Display user's videos
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function membervideos()
+    {
+        return view("membervideos");
+    }
+
+    /**
+     * Display upload video page
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function uploadvideo()
+    {
+        return view("uploadvideo");
     }
 
     /**
