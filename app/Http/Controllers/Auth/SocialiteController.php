@@ -5,10 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\User;
 use Auth;
 use Socialite;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Foundation\Auth\RegistersUsers;
 use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class SocialiteController extends Controller
 {
