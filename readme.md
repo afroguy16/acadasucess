@@ -32,3 +32,5 @@
 
 <h2>Conclusion</h2>
 <p>My epistle is long already, so I am going to make this conclusion brief. I am glad to have to get my hands dirty, a relieve from designing web banners and doing SEO for someone (like me) intending to live and breath building and maintaining technology products. I believe that getting in will give me the push I so much desire to improve daily, because nothing beats working as a coder and developer all day. Thank you.</p>
+
+<em><p>Don't forget to check the mockup folder</p></em>
