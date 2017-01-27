@@ -3,16 +3,17 @@
 @section("title", "Acada | Browse Videos | Share Videos")
 
 @section('page')
-<section>
-    <div class="row main-search-form">
-        <div class="col-lg-3 col-lg-push-9">
+<div id="home-head">
+    <div class="clearfix"></div>
+    <div class="home-search">
+        <section>
             <form action="index.php" method="GET">
-                <input type="text" placeholder="Search videos...">
-                <input type="submit" value="Search">
+                <input type="text" placeholder="Search videos..." class="text">
+                <input type="submit" value="Search" class="home-search-btn">
             </form>
-        </div>
+        </section>
     </div>
-</section>
+</div>
 <section>
     <div class="trending">
         <div class="main-title">
