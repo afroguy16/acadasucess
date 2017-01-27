@@ -47,6 +47,7 @@ class SocialiteController extends Controller
         if ($authUser) {
             return $authUser;
         }
+        var_dump($authUser);
         return User::create([
             'name'     => $user->name,
             'email'    => $user->email,
